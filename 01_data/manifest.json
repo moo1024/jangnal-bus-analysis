@@ -1,0 +1,133 @@
+{
+ "generated": "2026-10-14T01:11:45+09:00",
+ "files": {
+  "N2": {
+   "file": "N2_소상공인시장진흥공단_전통시장_20251110.csv",
+   "url": "https://www.data.go.kr/data/15012894/standard.do",
+   "bytes": 345265,
+   "sha256": "97cee19c9301b91a9799648d9ad8d62395100aa534cd9c52dd2df5542560b7c1",
+   "rows": 1393,
+   "collected_at": "2026-10-13T23:50:14+09:00"
+  },
+  "N1": {
+   "file": "N1_2025정류장현황(EUCKR)_20251209.csv",
+   "url": "https://www.data.go.kr/data/15067528/fileData.do",
+   "bytes": 20735435,
+   "sha256": "1db7e5d0cdc541e86a957b7584f2ddf8e4b1d29b02594984a01c5752ac13af06",
+   "rows": 227065,
+   "collected_at": "2026-10-13T23:50:14+09:00"
+  },
+  "N1b": {
+   "file": "N1b_국토교통부_정류장현황_260703.csv",
+   "url": "https://www.data.go.kr/data/15128614/fileData.do",
+   "bytes": 13252541,
+   "sha256": "10d25ec17b6cb4258e3f071ea2c465a2fa3a41d490d5db25b865cc47f9aa164e",
+   "rows": 134442,
+   "collected_at": "2026-10-13T23:50:14+09:00"
+  },
+  "S2": {
+   "file": "S2_한국교통안전공단_수요응답형대중교통시스템_등록대수_20251231.csv",
+   "url": "https://www.data.go.kr/data/15064502/fileData.do",
+   "bytes": 1550,
+   "sha256": "08d05ff893cf5d86f1d9620ee40923f741d597ce2d746bb8215ca1fc24215a8a",
+   "rows": 66,
+   "collected_at": "2026-10-13T23:50:14+09:00"
+  },
+  "S3": {
+   "file": "S3_용도별차종별시군구별_일평균자동차주행거리_2019.csv",
+   "url": "https://www.data.go.kr/data/15088483/fileData.do",
+   "bytes": 21479,
+   "sha256": "102f2cd1ddee5dddd22763640a42623311c346574763c7d793ee61e05c9bfc9d",
+   "rows": 230,
+   "collected_at": "2026-10-13T23:50:14+09:00"
+  },
+  "EF_inventory": {
+   "file": "EF_국가온실가스인벤토리_1990_2023.csv",
+   "url": "https://www.data.go.kr/data/15049589/fileData.do",
+   "bytes": 45210,
+   "sha256": "6bce856349a9b7295b29cbe99e5f0eb398dee4d6adc8cbd3cdde5245c690f9e3",
+   "rows": 162,
+   "collected_at": "2026-10-13T23:50:14+09:00"
+  },
+  "EF_notice": {
+   "file": "EF_환경부고시_자동차온실가스배출허용기준_2025-165.xml",
+   "url": "https://www.law.go.kr/DRF/lawService.do?target=admrul&ID=2100000266944",
+   "bytes": 85036,
+   "sha256": "de442ecd5f51e3ccea3f84d919856eb9ed9611a46ed459ea8857401e7cc559cd",
+   "rows": null,
+   "collected_at": "2026-10-13T23:50:14+09:00"
+  },
+  "S9": {
+   "file": "S9_KOSIS_DT_1B04005N_T2_202609.json",
+   "url": "KOSIS org=101 tbl=DT_1B04005N itm=T2 prd=M 202609 (scripts/00b_fetch_kosis_s9.py)",
+   "bytes": 48532931,
+   "sha256": "9eb3abddca17b06d6c280097d80f540a81f0cc9b2273f87b25a09e7054c6aff2",
+   "rows": 79706,
+   "collected_at": "2026-10-13T23:50:14+09:00"
+  },
+  "N16": {
+   "file": "HangJeongDong_ver20260701.geojson",
+   "url": "https://raw.githubusercontent.com/vuski/admdongkor/master/ver20260701/HangJeongDong_ver20260701.geojson",
+   "bytes": 34648875,
+   "sha256": "c01ef44a0eb00978662ba7a6240ccb1da287fb52abd85104a1758969d391132f",
+   "rows": 3558,
+   "collected_at": "2026-10-13T23:50:14+09:00"
+  },
+  "N16_license": {
+   "file": "admdongkor_LICENSE-DATA.txt",
+   "url": "https://raw.githubusercontent.com/vuski/admdongkor/master/LICENSE-DATA",
+   "bytes": 2757,
+   "sha256": "d892791d5ba176e3bb7cc178937b26d3b33e2ad19da581af168c9e48428ba507",
+   "rows": null,
+   "collected_at": "2026-10-13T23:50:14+09:00"
+  },
+  "N24_pbf": {
+   "file": "south-korea-latest.osm.pbf",
+   "url": "https://download.geofabrik.de/asia/south-korea-latest.osm.pbf",
+   "bytes": 289140584,
+   "sha256": "0b45a02593fc7d3d2ae3bdd616f8abebf1e21deeda3eff3a9a46814920d46587",
+   "rows": null,
+   "collected_at": "2026-10-13T23:50:14+09:00"
+  },
+  "N24_bus_stop": {
+   "file": "N24_osm_bus_stop_20261013.csv",
+   "url": "pbf 에서 00c_extract_osm.py 로 추출",
+   "bytes": 8190976,
+   "sha256": "4e71e8e85030c3abb3e3fc950e9b0261f58a1fade55bb499be80ffefe306e017",
+   "rows": 110582,
+   "collected_at": "2026-10-13T23:50:14+09:00"
+  },
+  "N24_marketplace": {
+   "file": "N24_osm_marketplace_20261013.csv",
+   "url": "pbf 에서 00c_extract_osm.py 로 추출",
+   "bytes": 49425,
+   "sha256": "715257cdcb1e77a4c08c3f5d101b4dd59ffd84935d857095167ccfa895c8d69e",
+   "rows": 660,
+   "collected_at": "2026-10-13T23:50:14+09:00"
+  },
+  "N23_pdf": {
+   "file": "N23_농식품부_농촌형교통모델_보도자료_2025-05-02.pdf",
+   "url": "https://www.mafra.go.kr/bbs/home/792/587555/download.do",
+   "bytes": 364618,
+   "sha256": "e05346adc7963c3da6df98bf4b87102c21b5718990288543d8852a2249512a9e",
+   "rows": null,
+   "collected_at": "2026-10-13T23:50:14+09:00"
+  },
+  "EF_ncv": {
+   "file": "EF_에너지법시행규칙_010281.xml",
+   "url": "https://www.law.go.kr/DRF/lawService.do?target=law&ID=010281 (scripts/law_text.py, 별표 에너지열량 환산기준 2022-11-21 개정)",
+   "bytes": 124911,
+   "sha256": "7bd576db02246adedbff7d503716085d01c395d134e3fb4c61a18647e0b99a2a",
+   "rows": null,
+   "collected_at": "2026-10-14T00:01:33+09:00"
+  },
+  "N23_korea_kr": {
+   "file": "N23_korea_kr_156744162.html",
+   "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156744162",
+   "bytes": 151676,
+   "sha256": "25cbab9e5a0dd58dfd17c54578b9abb22d88b5482ebe23320d739a97429ef7a7",
+   "rows": null,
+   "collected_at": "2026-10-13T23:50:14+09:00"
+  }
+ }
+}
