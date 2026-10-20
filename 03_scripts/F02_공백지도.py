@@ -51,9 +51,9 @@ ax.set_ylim(bg.total_bounds[1] - 5000, bg.total_bounds[3] + 5000)
 T, B = 11.5, 10.2
 px = fig.add_axes([0.49, 0.0, 0.51, 0.99]); px.set_axis_off()
 px.set_xlim(0, 1); px.set_ylim(0, 1)
-px.text(0, .985, "장날 이동 공백 읍·면", fontsize=T, weight="bold", va="top")
+px.text(0, .985, "장날 이동 공백 읍·면", fontsize=11.5, weight="bold", va="top")
 px.text(0, .925, f"판정 {fmt('eupmyeon_judged_n')}곳 중 {fmt('jangnal_gap_eupmyeon_n')}곳({num('jangnal_gap_pct_of_eupmyeon')}%)\n65세 이상 {fmt('jangnal_gap_elderly_n')}명",
-        fontsize=B, va="top", linespacing=1.3)
+        fontsize=10.2, va="top", linespacing=1.3)
 y = .745
 items = [
     (C_NONE, f"확인필요형 {fmt('gap_type_none_n')}곳", "제도 미확인"),
@@ -61,8 +61,8 @@ items = [
     (C_RUN, f"운영형 {fmt('gap_type_running_n')}곳", "원문 확인 0"),
 ]
 def row(y, a, b):
-    px.text(.1, y + .018, a, fontsize=B, va="center", weight="bold")
-    px.text(.1, y - .035, b, fontsize=B, va="center", color="#444")
+    px.text(.1, y + .018, a, fontsize=10.2, va="center", weight="bold")
+    px.text(.1, y - .035, b, fontsize=10.2, va="center", color="#444")
 for c, a, b in items:
     px.add_patch(plt.Rectangle((0, y - .025), .07, .05, fc=c, ec="black", lw=.4))
     row(y, a, b)
@@ -75,7 +75,7 @@ row(y, f"판정 보류 {fmt('eupmyeon_hold_n')}곳", f"정류장 위치자료 �
 y -= .112
 px.scatter([.035], [y], s=18, marker="^", color="#222")
 row(y, f"정기장 {fmt('markets_periodic_n')}곳", "5일장 개설주기 기준")
-px.text(0, .005, "마을·정류장 © OpenStreetMap", fontsize=B, va="bottom", color="#333")
+px.text(0, .005, "마을·정류장 © OpenStreetMap", fontsize=10.2, va="bottom", color="#333")
 for out in (FIG / "F02_공백지도.png", SHOT / "F02_공백지도.png"):
     save(fig, out, exact_mm=(W, H))
 print("OK", len(g), len(hd))
